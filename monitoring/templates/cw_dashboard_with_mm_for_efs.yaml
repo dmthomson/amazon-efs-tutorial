@@ -39,7 +39,7 @@ Parameters:
     Description: Retain or delete the Amazon EFS Dashboard after the CloudFormation stack is deleted.
     Type: String
   ElasticFileSystem:
-    AllowedPattern: ^(fs-)([a-z0-9]{8})$
+    AllowedPattern: ^(fs-)([a-z0-9]{17})$
     Description: Amazon EFS file system id.
     Type: String
 
